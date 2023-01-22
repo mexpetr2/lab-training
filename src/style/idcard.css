@@ -1,0 +1,14 @@
+.idcard {
+  display: flex;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.idcardtext {
+  font-weight: 700;
+
+}
+
+.picture {
+    padding: 5px;
+}

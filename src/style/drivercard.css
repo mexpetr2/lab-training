@@ -1,0 +1,26 @@
+.licencecard{
+    height: 130px;
+    width: 600px;
+    background-color: #455EB5;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.licencecard img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.name{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.car{
+    font-size: small;
+}

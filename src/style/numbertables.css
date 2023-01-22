@@ -1,0 +1,26 @@
+.listnumbers{
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+
+}
+
+.listnumber{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.listnumber div{
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.listnumber div:nth-child(even){
+    background-color: red;
+}
